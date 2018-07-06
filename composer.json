@@ -1,0 +1,19 @@
+{
+  "name": "jakubwladyslaw/product-backend",
+  "authors": [
+    {
+      "name": "Jakub Żurawa",
+      "email": "jakub.zurawa@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.2",
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jakub\\ProductBackend\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
