@@ -17,7 +17,7 @@ Simply add the following line to your `composer.json` and run install/update:
           ],
 ## Configuration
 
-You will need to add the service provider and optionally the facade alias to your `config/app.php`:
+You will need to add the service provider to your `config/app.php`:
 
 ```php
 'providers' => array(
@@ -25,3 +25,8 @@ You will need to add the service provider and optionally the facade alias to you
 )
 
 ```
+And make migration
+```
+    php artisan migrate 
+```
+    
