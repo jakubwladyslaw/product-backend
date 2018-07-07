@@ -8,7 +8,10 @@ Route::prefix('api')->middleware('api')->group(function () {
         Route::post('', 'Jakub\ProductBackend\Http\Controllers\ProductController@productAdd');
     });
 
+
     Route::prefix('products')->group(function () {
         Route::get('', 'Jakub\ProductBackend\Http\Controllers\ProductsController@productsGet')->name('products.get');
     });
+
+
 });
